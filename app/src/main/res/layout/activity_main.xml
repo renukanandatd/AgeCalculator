@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#c7f9cc"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:layout_margin="25dp"
+        android:text="Age in Minutes"
+        android:textColor="#38a3a5"
+        android:textSize="34sp"/>
+        <!--app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="#38a3a5"
+        android:text="Know your age in minutes"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/selectBirthDayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="24dp"
+        android:backgroundTint="@color/background"
+        android:text="Select Date" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:text="27-07-2000"
+        android:textColor="#22577a"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:text="Selected date"
+        android:textColor="#38a3a5"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/ageInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:text="100000000"
+        android:textColor="#22577a"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:text="MINUTES"
+        android:textColor="#38a3a5"
+        android:textSize="34sp"/>
+
+
+
+
+
+</LinearLayout>
